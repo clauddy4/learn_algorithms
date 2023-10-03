@@ -1,4 +1,4 @@
-function binarySearch(list, item) {
+function binary_search(list, item) {
     let low = 0;
     let high = list.length - 1;
 
@@ -17,5 +17,5 @@ function binarySearch(list, item) {
 
 const myList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-console.log(binarySearch(myList, 7));
+console.log(binary_search(myList, 7));
 

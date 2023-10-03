@@ -12,7 +12,7 @@ function findSmallestIndex(array) {
     return smallestIndex;
 }
 
-function selectionSort(array) {
+function selection_sort(array) {
     let sortedArray = [];
     let length = array.length;
 
@@ -26,4 +26,4 @@ function selectionSort(array) {
     return sortedArray;
 }
 
-console.log(selectionSort([5, 3, 6, 2, 10]));
+console.log(selection_sort([5, 3, 6, 2, 10]));
