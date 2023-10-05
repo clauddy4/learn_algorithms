@@ -5,7 +5,6 @@ export default class LinkedList {
         this.head = null;
         this.tail = null;
     }
-
     prepend(value) {
         // Делаем новый узел головой
         const newNode = new LinkedListNode(value, this.head);
@@ -15,10 +14,8 @@ export default class LinkedList {
         if (!this.tail) {
             this.tail = newNode;
         }
-
         return this;
     }
-
     append(value) {
         const newNode = new LinkedListNode(value);
 
@@ -36,7 +33,7 @@ export default class LinkedList {
 
         return this;
     }
-
+    
     delete(value) {
         if (!this.head) {
             return null;
