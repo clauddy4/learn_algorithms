@@ -1,4 +1,4 @@
-let getConcatenation = function (nums) {
+const getConcatenation = (nums) => {
     let index = 0;
     let maxLength = nums.length * 2
     while (nums.length < maxLength) {

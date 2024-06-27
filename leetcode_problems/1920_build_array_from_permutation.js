@@ -1,4 +1,4 @@
-let buildArray = function(nums) {
+let buildArray = (nums) => {
     let result = []
     for (let i = 0; i < nums.length; i++) {
         result[i] = nums[nums[i]]
