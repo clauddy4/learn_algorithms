@@ -1,3 +1,5 @@
+// easy
+
 const theMaximumAchievableX = (num, t) => {
     return num + 2 * t
 };

@@ -1,3 +1,5 @@
+// easy
+
 const findPermutationDifference = (s, t) => {
     let res = 0
     let tIndex = 0

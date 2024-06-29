@@ -1,3 +1,5 @@
+// easy
+
 const scoreOfString = (s) => {
     let res = 0
     for (let i = 0; i < s.length - 1; i++) {
