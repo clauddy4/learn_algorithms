@@ -1,13 +1,15 @@
-var maximumWealth = function (accounts) {
-    let sum = 0;
+// easy
 
-    for (account of accounts) {
-        let wealth = account.reduce((a, b) => a + b, 0)
-        if (wealth > sum) sum = wealth
+const maximumWealth = (accounts) => {
+    let maxWealth = 0;
+
+    for (let account of accounts) {
+        let wealth = account.reduce((a, b) => a + b)
+        if (wealth > maxWealth) maxWealth = wealth
     }
 
-    return sum
-};
+    return maxWealth
+}
 
 console.log(maximumWealth([[1, 2, 3], [3, 2, 1]]))
 console.log(maximumWealth([[1, 5], [7, 3], [3, 5]]))
