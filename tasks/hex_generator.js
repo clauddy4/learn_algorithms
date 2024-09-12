@@ -6,11 +6,11 @@ function getRandomColor() {
     const b = Math.floor(Math.random() * 256);
 
     // Преобразуем числа в шестнадцатеричный формат и объединяем их в строку
-    let color = "#" + r.toString(16) + g.toString(16) + b.toString(16);
+    let color = '#' + r.toString(16) + g.toString(16) + b.toString(16);
 
     // Если длина строки меньше 7 символов, добавляем нули в начало
     while (color.length < 7) {
-        color = color + "0";
+        color = color + '0';
     }
 
     return color;

@@ -8,4 +8,4 @@ let mostWordsFound = function(sentences) {
     return maxLength;
 };
 
-console.log(mostWordsFound(["alice and bob love leetcode", "i think so too", "this is great thanks very much"]))
+console.log(mostWordsFound(['alice and bob love leetcode', 'i think so too', 'this is great thanks very much']))

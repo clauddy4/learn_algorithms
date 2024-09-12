@@ -10,4 +10,4 @@ const findWordsContaining = (words, x) => {
     return result
 }
 
-console.log(findWordsContaining(["abc","bcd","aaaa","cbc"], "a"))
+console.log(findWordsContaining(['abc','bcd','aaaa','cbc'], 'a'))

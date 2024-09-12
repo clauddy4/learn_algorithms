@@ -8,4 +8,4 @@ const finalValueAfterOperations = (operations) => {
     return x;
 };
 
-console.log(finalValueAfterOperations(["--X","X++","X++","X++","X++"]))
+console.log(finalValueAfterOperations(['--X','X++','X++','X++','X++']))
